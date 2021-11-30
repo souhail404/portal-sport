@@ -4235,7 +4235,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", en
     .about-container{
         width: 100%;
         height: auto;
-        padding: 50px 10px 50px 10px;
+        padding: 50px 20px 50px 20px;
     } 
     .about-container .content .p h4{
         font-size: 1.7rem;
@@ -4248,7 +4248,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", en
     .about-container{
         width: 100%;
         height: auto;
-        padding: 50px 10px 50px 10px;
+        padding: 50px 20px 50px 20px;
     } 
     .about-container .content .p h4{
         font-size: 1.6rem;
