@@ -1,45 +1,5 @@
-/* -----------------------------------------------------------------------------------
 
- 01. Google fonts
- 02. Basics style
- 03. Selection style 
- 04. Owl-Theme custom style
- 05. Section style
- 06. Navbar style
- 07. Nav Points style
- 08. Header style
- 09. Parallax Scrolling style (NEW)
- 10. Slider style
- 11. Slider Left Panel style
- 12. Page Banner Header style
- 13. Content Lines style
- 14. About style 
- 15. Team style
- 16. Team Details style
- 17. Services style
- 18. Projects style
- 19. Projects2 (masonry) style
- 20. Projects3 style
- 21. Projects4 style
- 22. Clients style
- 23. Gallery style
- 24. Promo Video and Testimonials style
- 25. Blog style
- 26. Post style
- 27. Contact style
- 28. Buttons style
- 29. Footer style
- 30. Corner style
- 31. Preloader style
- 32. toTop Button style
- 33. Accordion Box (for Faqs) style
- 34. Pricing plan style
- 35. Error Page - 404 style
- 36. Process style
- 37. Coming soon
- 38. Responsive (Media Query)
- 
------------------------------------------------------------------------------------ */
+
 
 
 /* ======= Google fonts (Oswald & Didact Gothic) ======= */
@@ -53,7 +13,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     font-smoothing: antialiased;
-    scroll-behavior: smooth;
 }
 * {
     margin: 0;
@@ -4230,5 +4189,71 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", en
         padding: 0;
         width: 145px;
         text-align: center;
+    }
+}
+.image-content{
+    height: 50vh;
+    max-height: 800px;
+    min-height: 490px;
+}
+.about-container{
+    width: 100%;
+    height: auto;
+    padding: 50px 30px 50px 60px;
+} 
+@media (max-width:720px) {
+    .about-container{
+        width: 100%;
+        height: auto;
+        padding: 50px 20px 50px 20px;
+    } 
+}
+.about-container .title{
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    border-bottom: solid 2px #008484;
+}
+.about-container .title h2{
+    color: black;
+    font-family: 'ubuntu',sans-serif;
+}
+.about-container .content{
+    padding-left: 0px;
+}
+.about-container .content .p{
+    margin-bottom: 35px;
+}
+.about-container .content .p h4{
+    font-family: 'poppins' ,sans-serif;
+    color: #01172fb7;
+}
+.about-container .content .p p{
+    font-family: 'poppins' ,sans-serif;
+    color: #01172fb7;
+}
+@media (max-width:470px) {
+    .about-container{
+        width: 100%;
+        height: auto;
+        padding: 50px 10px 50px 10px;
+    } 
+    .about-container .content .p h4{
+        font-size: 1.7rem;
+    }
+    .about-container .title h2{
+        font-size: 2rem;
+    }
+}
+@media (max-width:400px) {
+    .about-container{
+        width: 100%;
+        height: auto;
+        padding: 50px 10px 50px 10px;
+    } 
+    .about-container .content .p h4{
+        font-size: 1.6rem;
+    }
+    .about-container .title h2{
+        font-size: 1.8rem;
     }
 }
