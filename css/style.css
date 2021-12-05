@@ -371,7 +371,7 @@ input[type="checkbox"] {
     left: 0;
     top: 0;
     width: 100%;
-    background: transparent;
+    background: #eaffff28;
     z-index: 99;
     padding-right: 0;
     padding-left: 0;
@@ -3561,6 +3561,7 @@ button.mfp-arrow {
     justify-content: center;
     padding:0 2%;
     color: #ffffffd8;
+    background-color: rgba(0, 0, 0, 0.45);
 }
 .about-content-desktop .about-right p{
     color: #ffffffb2;
@@ -4232,3 +4233,4 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", en
         text-align: center;
     }
 }
+
